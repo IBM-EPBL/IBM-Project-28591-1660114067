@@ -1047,3 +1047,90 @@ section {
 .ibm{
   margin-left: 50px;
 }
+.prediction{
+  background: #37517e;
+  color: white;
+  width: 700px;
+  height: auto;
+  border-radius: 15px;
+}
+.prediction .dis {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+  color: #white;
+}
+
+.prediction .dis::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.prediction .dis::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.medCalcFontOneBold{
+  font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;
+}
+.medCalcFontResultParam{
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;
+}
+.medCalcFontIO{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.medCalcFontOne{
+font-size: 15px;
+}
+.btn,
+.btn:focus {
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.btn:hover,
+.btn:focus:hover {
+  color: #fff;
+  background: #31a9e1;
+}
+.box{
+  border-radius: 15px;
+  width: 150px;
+height: 35px;
+padding-left: 8px;
+  }
+.select{
+  border-radius: 10px;
+  width: 150px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
